@@ -2,11 +2,13 @@ package ua.niporka.springcourse;
 
 import org.springframework.stereotype.Component;
 
-public class JazzMusic implements Music {
+import java.util.List;
+
+public class JazzMusic {
 
 
-    @Override
-    public String getSong() {
-        return "California";
-    }
+//    @Override
+//    public List getSong() {
+//        return "California";
+//    }
 }
